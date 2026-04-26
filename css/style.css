@@ -1234,3 +1234,22 @@ footer .container {
     color: #777;
     margin: 5px 0 10px;
 }
+
+.team-contact {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.team-contact a img {
+    width: 24px;
+    height: 24px;
+    transition: 0.3s ease;
+    opacity: 0.8;
+}
+
+.team-contact a img:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
